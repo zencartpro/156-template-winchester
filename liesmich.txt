@@ -1,7 +1,7 @@
-﻿Responsives Template Winchester 1.7 für Zen Cart 1.5.6 deutsch
+﻿Responsives Template Winchester 1.7.1 für Zen Cart 1.5.6 deutsch
 
 Anpassung des Templates Winchester (https://www.zen-cart.com/downloads.php?do=file&id=1865) von picaflor-azul für die deutsche Zen Cart Version 1.5.6
-September 2019
+November 2019
 www.webchills.at
 
 Demo des Templates:
@@ -12,6 +12,9 @@ www.picaflor-azul.com
 
 
 Diese Version ist ausschließlich für die deutsche Zen Cart Version 1.5.6 geeignet!
+
+Changelog Version 1.7.1 - November 2019
+- Fixes für Google Analytics und Microdata aus 1.5.6d integriert
 
 Changelog Version 1.7 - September 2019
 - Anpassungen für PHP 7.3 
