@@ -1,18 +1,19 @@
 <?php
-/** Flexible Footer Menu
- * @package admin
- * @copyright Copyright 2003-2009 Zen Cart Development Team
+/**
+ * Flexible Footer Menu
+ * 
+ * @package templateSystem
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * Added by rbarbour (ZCAdditions.com), Flexible Footer Menu 1.1 (3)
- * Modified by Anne (Picaflor-Azul.com) Winchester Respnsive v1.0
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: tpl_flexible_footer_menu.php 2019-12-18 17:11:16Z webchills $
  *
  * require code to show flexible footer menu
  */
  
-  include(DIR_WS_MODULES . zen_get_module_directory('flexible_footer_menu.php'));
+include(DIR_WS_MODULES . zen_get_module_directory('flexible_footer_menu.php'));
 
-if (sizeof($var_linksList) >= 1) {
+if (isset($var_linksList) && sizeof($var_linksList) >= 1) {
   $col_output = '';
   $cols = 0;
   for ($list_col=1; $list_col<=9; $list_col++) { 
